@@ -1,10 +1,4 @@
-# Just count the stupid dice
 import random
-
-def roll(dice):
-    for die in dice:
-        # XXX: I don't even know what this function does
-        continue
 
 class Die:
     """
@@ -12,9 +6,7 @@ class Die:
     """
 
     def __init__(self):
-        self.roll()
-
-    def roll(self):
+        
         self.value = int(random.random() * 6 + 1)
 
     def show(self):
